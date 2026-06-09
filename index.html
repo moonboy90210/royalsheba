@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>RoyalSheba — Herbal Skincare</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Cormorant+Garant:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+		rel="stylesheet" />
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+	<!-- NAV -->
+	<nav id="nav">
+		<div class="container">
+			<div class="nav-inner">
+				<a href="#" class="nav-logo">Royal<span>Sheba</span></a>
+				<ul class="nav-links">
+					<li><a href="#about">Our Story</a></li>
+					<li><a href="#services">Why Us</a></li>
+					<li><a href="#collections">Collections</a></li>
+					<li><a href="#testimonials">Reviews</a></li>
+					<li><a href="#faq">FAQ</a></li>
+					<li><a href="#order" class="nav-cta">Order Now</a></li>
+				</ul>
+				<button class="hamburger" id="hamburger" aria-label="Menu">
+					<span></span><span></span><span></span>
+				</button>
+			</div>
+		</div>
+	</nav>
+
+	<!-- MOBILE MENU -->
+	<div id="mobile-menu">
+		<a href="#about" onclick="closeMobileMenu()">Our Story</a>
+		<a href="#services" onclick="closeMobileMenu()">Why Us</a>
+		<a href="#collections" onclick="closeMobileMenu()">Collections</a>
+		<a href="#testimonials" onclick="closeMobileMenu()">Reviews</a>
+		<a href="#faq" onclick="closeMobileMenu()">FAQ</a>
+		<a href="#order" onclick="closeMobileMenu()" class="m-cta">Order Now</a>
+	</div>
+
+	<!-- HERO -->
+	<section id="hero">
+		<div class="hero-bg-text">SHEBA</div>
+		<div class="container" style="display:contents;">
+			<div class="hero-left container">
+				<span class="eyebrow">Royal Sheba Skincare</span>
+				<h1 class="hero-title">
+					Your skin has a <em>Heritage</em><br>it's time you honored it.
+				</h1>
+				<p class="hero-sub">
+					A skincare line built for melanin-rich skin. Made for your race, your color, your story
+					— not adapted, not modified.
+				</p>
+				<div class="hero-actions">
+					<a href="#collections" class="btn-primary">Shop the Collection</a>
+					<a href="#about" class="btn-ghost">Our Story →</a>
+				</div>
+				<div class="hero-stats">
+					<div>
+						<div class="stat-num">2K+</div>
+						<div class="stat-label">Loyal Customers</div>
+					</div>
+					<div>
+						<div class="stat-num">100%</div>
+						<div class="stat-label">Natural Ingredients</div>
+					</div>
+					<div>
+						<div class="stat-num">4.9★</div>
+						<div class="stat-label">Average Rating</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="hero-right">
+				<div class="hero-img-wrap">
+					<div class="hero-placeholder"><img src="img/oil.jpeg" alt="Sheba Stretch Mark Oil"></div>
+					<div class="hero-tag">New Arrivals</div>
+					<div class="hero-badge">
+						<p>Bestseller 2026</p>
+						<strong>Sheba Stretch Mark Oil</strong>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- TICKER DIVIDER -->
+	<div class="section-divider" style="background:var(--brown); overflow:hidden;">
+		<div class="ticker" id="ticker1">
+			<span>Natural Botanicals</span>
+			<span class="accent">✦</span>
+			<span>Radiant Skin</span>
+			<span class="accent">✦</span>
+			<span>African Heritage</span>
+			<span class="accent">✦</span>
+			<span>Cruelty Free</span>
+			<span class="accent">✦</span>
+			<span>Dermatologist Tested</span>
+			<span class="accent">✦</span>
+			<span>Natural Botanicals</span>
+			<span class="accent">✦</span>
+			<span>Radiant Skin</span>
+			<span class="accent">✦</span>
+			<span>African Heritage</span>
+			<span class="accent">✦</span>
+			<span>Cruelty Free</span>
+			<span class="accent">✦</span>
+			<span>Dermatologist Tested</span>
+			<span class="accent">✦</span>
+		</div>
+	</div>
+
+	<!-- ABOUT -->
+	<section id="about">
+		<div class="container">
+			<div class="about-grid">
+				<div class="about-img-wrap reveal">
+					<div class="about-img-placeholder"><img src="img/about.jpeg" alt="about Sheba Stretch Mark Oil"
+							srcset=""></div>
+				</div>
+				<div class="about-text">
+					<span class="eyebrow reveal">Our Philosophy</span>
+					<h2 class="about-heading reveal reveal-delay-1">
+						Born from the <em>richest soils</em>,<br>made for the finest skin.
+					</h2>
+					<p class="about-body reveal reveal-delay-2">
+						For the first time, RoyalSheba arrives home.
+						Be among the first to own it in the whole of Nigeria. A formulation 
+						crafted to honour the depth, richness, and resilience of melanin-rich skin.
+						
+					</p>
+					<p class="about-body reveal reveal-delay-2">
+						RoyalSheba is not another skincare brand. It is a return — to roots, to ritual, to the kind of care your skin has always deserved.
+					</p>
+					<div class="about-pillars reveal reveal-delay-3">
+						<div class="pillar">
+							<div class="pillar-icon">🌿</div>
+							<div>
+								<div class="pillar-title">100% Natural Sourcing</div>
+								<div class="pillar-desc">Every ingredient is ethically sourced from African botanical
+									suppliers, traceable to origin.</div>
+							</div>
+						</div>
+						<div class="pillar">
+							<div class="pillar-icon">🔬</div>
+							<div>
+								<div class="pillar-title">Clinically Validated</div>
+								<div class="pillar-desc">Tested by independent dermatologists for efficacy across all
+									melanin-rich skin tones.</div>
+							</div>
+						</div>
+						<div class="pillar">
+							<div class="pillar-icon">♻️</div>
+							<div>
+								<div class="pillar-title">Sustainable &amp; Conscious</div>
+								<div class="pillar-desc">Recyclable packaging. Zero synthetic fragrances. A business
+									that gives back to farming communities.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- SERVICES -->
+	<section id="services">
+		<div class="container">
+			<div class="section-head reveal">
+				<span class="eyebrow">What We Offer</span>
+				<span class="gold-rule"></span>
+				<h2>Skincare that <em>works</em> as hard<br>as you do.</h2>
+				<p>A complete working system — from deep cleansing to overnight renewal — designed to work together for
+					your best skin.</p>
+			</div>
+			<div class="services-grid">
+				<div class="service-card reveal">
+					<div class="service-num">I</div>
+					<div class="service-title">Stretch Mark Removal</div>
+					<div class="service-desc">Reduces the appearance of stretch marks and scars. Helps lift impurities without stripping your
+						natural moisture barrier. A clean slate, never a dry one.</div>
+				</div>
+				<div class="service-card reveal reveal-delay-1">
+					<div class="service-num">II</div>
+					<div class="service-title">Skin Firming</div>
+					<div class="service-desc">Helps firm damaged skin and reduce the look of aging.</div>
+				</div>
+				<div class="service-card reveal reveal-delay-2">
+					<div class="service-num">III</div>
+					<div class="service-title">Intense Hydration</div>
+					<div class="service-desc">Shea-butter moisturisers that sink in, not sit on. Lightweight formulas
+						that work for Nigerian humidity and beyond.</div>
+				</div>
+				<div class="service-card reveal">
+					<div class="service-num">IV</div>
+					<div class="service-title">Natural Ingredients</div>
+					<div class="service-desc">Formulated with 100% pure essential oils for safe, effective skincare.</div>
+				</div>
+				<div class="service-card reveal reveal-delay-1">
+					<div class="service-num">V</div>
+					<div class="service-title">Overnight Repair</div>
+					<div class="service-desc">Night masks and oils that work while you sleep — repairing the day's
+						damage and waking you up to visibly renewed skin.</div>
+				</div>
+				<div class="service-card reveal reveal-delay-2">
+					<div class="service-num">VI</div>
+					<div class="service-title">Wide Application</div>
+					<div class="service-desc">Suitable for all skin types, perfect for pregnancy and postpartum care.</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- COLLECTIONS -->
+	<section id="collections">
+		<div class="container">
+			<div class="section-head reveal">
+				<span class="eyebrow">Our Collections</span>
+				<span class="gold-rule"></span>
+				<h2>Find your <em>ritual.</em></h2>
+				<p>Each product is a single chapter in a complete skincare story. Start anywhere. Build everything.</p>
+			</div>
+			<div class="collections-grid">
+				<div class="product-card reveal">
+					<div class="product-img">
+						<div class="product-img-label"><img src="img/lotion.jpeg" alt="Stretch Mark Lotion" srcset="">
+						</div>
+						<span class="product-badge-best">Bestseller</span>
+						<div class="product-overlay"><button class="overlay-btn" onclick="scrollToOrder()">Order
+								Now</button></div>
+					</div>
+					<div class="product-info">
+						<div class="product-type">Stretch Mark Lotion</div>
+						<div class="product-name">Dr. Meinaier Stretch Mark Lotion</div>
+						<div class="product-footer">
+							<span class="product-price">₦13,000</span>
+							<a href="https://wa.me/2348109650323?text=Hello%2C%20I%27d%20like%20to%20order%20from%20RoyalSheba"
+						target="_blank" class="btn-primary reveal" style="display:inline-block;" onclick="scrollToOrder()">Order →</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="product-card reveal reveal-delay-1">
+					<div class="product-img">
+						<div class="product-img-label"><img src="img/oil.jpeg" alt="Stretch Mark Oil" srcset=""></div>
+						<span class="product-badge-new">New</span>
+						<div class="product-overlay"><button class="overlay-btn" onclick="scrollToOrder()">Order
+								Now</button></div>
+					</div>
+					<div class="product-info">
+						<div class="product-type">Stretch Mark Oil</div>
+						<div class="product-name">Dr. Meinaier Stretch Mark Oil</div>
+						<div class="product-footer">
+							<span class="product-price">₦13,000</span>
+							<a href="https://wa.me/2348109650323?text=Hello%2C%20I%27d%20like%20to%20order%20from%20RoyalSheba"
+						target="_blank" class="btn-primary reveal" style="display:inline-block;" onclick="scrollToOrder()">Order →</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="product-card reveal reveal-delay-2">
+					<div class="product-img">
+						<div class="product-img-label">✦</div>
+						<div class="product-overlay"><button class="overlay-btn" onclick="scrollToOrder()">Order
+								Now</button></div>
+					</div>
+					<div class="product-info">
+						<div class="product-type">Deep Cleanser</div>
+						<div class="product-name">Baobab Purifying Face Wash</div>
+						<div class="product-footer">
+							<span class="product-price">₦5,500</span>
+							<a href="https://wa.me/2348109650323?text=Hello%2C%20I%27d%20like%20to%20order%20from%20RoyalSheba"
+						target="_blank" class="btn-primary reveal" style="display:inline-block;" onclick="scrollToOrder()">Order →</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- <div class="product-card reveal">
+        <div class="product-img">
+          <div class="product-img-label">✦</div>
+          <span class="product-badge-new">New</span>
+          <div class="product-overlay"><button class="overlay-btn" onclick="scrollToOrder()">Order Now</button></div>
+        </div>
+        <div class="product-info">
+          <div class="product-type">Moisturiser</div>
+          <div class="product-name">Royal Shea Hydra Cream</div>
+          <div class="product-footer">
+            <span class="product-price">₦7,200</span>
+            <button class="add-btn" onclick="scrollToOrder()">Order →</button>
+          </div>
+        </div>
+      </div> -->
+
+				<!-- <div class="product-card reveal reveal-delay-1">
+        <div class="product-img">
+          <div class="product-img-label">✦</div>
+          <div class="product-overlay"><button class="overlay-btn" onclick="scrollToOrder()">Order Now</button></div>
+        </div>
+        <div class="product-info">
+          <div class="product-type">Toner</div>
+          <div class="product-name">Marula Rose Balancing Toner</div>
+          <div class="product-footer">
+            <span class="product-price">₦4,800</span>
+            <button class="add-btn" onclick="scrollToOrder()">Order →</button>
+          </div>
+        </div>
+      </div> -->
+
+				<!-- <div class="product-card reveal reveal-delay-2">
+        <div class="product-img">
+          <div class="product-img-label">✦</div>
+          <span class="product-badge-best">Value Set</span>
+          <div class="product-overlay"><button class="overlay-btn" onclick="scrollToOrder()">Order Now</button></div>
+        </div>
+        <div class="product-info">
+          <div class="product-type">Starter Ritual Kit</div>
+          <div class="product-name">The RoyalSheba Ritual Set</div>
+          <div class="product-footer">
+            <span class="product-price">₦24,000</span>
+            <button class="add-btn" onclick="scrollToOrder()">Order →</button>
+          </div>
+        </div>
+      </div> -->
+			</div>
+		</div>
+	</section>
+
+	<!-- TESTIMONIALS -->
+	<section id="testimonials">
+		<div class="container">
+			<div class="section-head reveal">
+				<span class="eyebrow" style="color:var(--gold-lt)">Real Results</span>
+				<span class="gold-rule"></span>
+				<h2>What our community says.</h2>
+				<p>Thousands of women have made RoyalSheba part of their daily ritual. Here's what they found.</p>
+			</div>
+			<div class="carousel-wrap">
+				<div class="carousel-track" id="carouselTrack">
+					<div class="testi-card">
+						<div class="testi-stars">★★★★★</div>
+						<div class="testi-quote">"</div>
+						<p class="testi-text">I've tried at least fifteen serums in the past three years. The Queen's
+							Glow is the first one that actually made my neighbours ask what I'm doing differently. My
+							skin hasn't looked like this since I was twenty-two.</p>
+						<div class="testi-author">
+							<div class="testi-avatar">A</div>
+							<div>
+								<div class="testi-name">Adaeze Okafor</div>
+								<div class="testi-location">Lagos, Nigeria</div>
+							</div>
+						</div>
+					</div>
+					<div class="testi-card">
+						<div class="testi-stars">★★★★★</div>
+						<div class="testi-quote">"</div>
+						<p class="testi-text">The packaging is gorgeous, the product even better. I ordered the full
+							ritual set and my hyperpigmentation has faded significantly after six weeks. I tell every
+							woman I know about this brand.</p>
+						<div class="testi-author">
+							<div class="testi-avatar">F</div>
+							<div>
+								<div class="testi-name">Fatima Al-Hassan</div>
+								<div class="testi-location">Abuja, Nigeria</div>
+							</div>
+						</div>
+					</div>
+					<div class="testi-card">
+						<div class="testi-stars">★★★★★</div>
+						<div class="testi-quote">"</div>
+						<p class="testi-text">Finally a brand that formulated for our skin tone. The shea cream doesn't
+							leave that white cast and it keeps my skin moisturised all day through Accra's heat. Nothing
+							comes close.</p>
+						<div class="testi-author">
+							<div class="testi-avatar">A</div>
+							<div>
+								<div class="testi-name">Ama Asante</div>
+								<div class="testi-location">Accra, Ghana</div>
+							</div>
+						</div>
+					</div>
+					<div class="testi-card">
+						<div class="testi-stars">★★★★★</div>
+						<div class="testi-quote">"</div>
+						<p class="testi-text">My esthetician asked me what I changed in my routine. I sent her the
+							RoyalSheba link. She ordered it the same day. The glow is unmatched — my skin looks lit from
+							within.</p>
+						<div class="testi-author">
+							<div class="testi-avatar">C</div>
+							<div>
+								<div class="testi-name">Chisom Eze</div>
+								<div class="testi-location">Port Harcourt, Nigeria</div>
+							</div>
+						</div>
+					</div>
+					<div class="testi-card">
+						<div class="testi-stars">★★★★★</div>
+						<div class="testi-quote">"</div>
+						<p class="testi-text">The Night Renewal Mask is something else entirely. I wake up and my skin
+							looks like I've had a facial. My husband thinks I sneak off to a spa at night. I just laugh.
+							Worth every naira.</p>
+						<div class="testi-author">
+							<div class="testi-avatar">N</div>
+							<div>
+								<div class="testi-name">Ngozi Bello</div>
+								<div class="testi-location">Enugu, Nigeria</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="carousel-controls">
+				<button class="carousel-btn" id="prevBtn" aria-label="Previous">←</button>
+				<div class="carousel-dots" id="carouselDots"></div>
+				<button class="carousel-btn" id="nextBtn" aria-label="Next">→</button>
+			</div>
+		</div>
+	</section>
+
+	<!-- FAQ -->
+	<section id="faq">
+		<div class="container">
+			<div class="section-head reveal">
+				<span class="eyebrow">Questions Answered</span>
+				<span class="gold-rule"></span>
+				<h2>Everything you need<br>to know.</h2>
+			</div>
+			<div class="faq-grid">
+				<div>
+					<h3 class="reveal">Your most asked questions, honestly answered.</h3>
+					<div class="faq-item reveal">
+						<button class="faq-q" onclick="toggleFaq(this)">
+							Are your products suitable for all skin tones?
+							<span class="faq-icon">+</span>
+						</button>
+						<div class="faq-a">Absolutely. Every RoyalSheba formula is developed specifically for
+							melanin-rich skin tones — from deep ebony to warm caramel. We test across the full spectrum
+							and our actives are calibrated to work beautifully without the common reactions
+							lighter-skin-focused brands can cause.</div>
+					</div>
+					<div class="faq-item reveal">
+						<button class="faq-q" onclick="toggleFaq(this)">
+							How long before I see results?
+							<span class="faq-icon">+</span>
+						</button>
+						<div class="faq-a">Most customers notice softer, more hydrated skin within the first week.
+							Visible improvements in tone and hyperpigmentation typically appear between 3–6 weeks with
+							consistent daily use. For the best results, use the full ritual system together.</div>
+					</div>
+					<div class="faq-item reveal">
+						<button class="faq-q" onclick="toggleFaq(this)">
+							Are your products safe for sensitive skin?
+							<span class="faq-icon">+</span>
+						</button>
+						<div class="faq-a">Yes. All products are free from synthetic fragrances, parabens, sulfates, and
+							harsh alcohols. They have been independently tested by dermatologists and are rated safe for
+							sensitive and reactive skin types. If you have a specific known allergy, contact us before
+							ordering.</div>
+					</div>
+				</div>
+				<div>
+					<div class="faq-item reveal" style="margin-top:0; border-top: 1px solid var(--border);">
+						<button class="faq-q" onclick="toggleFaq(this)">
+							Do you offer payment on delivery?
+							<span class="faq-icon">+</span>
+						</button>
+						<div class="faq-a">We do not offer payment on delivery options and we only accept orders via our official website or WhatsApp accounts.
+							However we have a 7 day exchange and refund policy in place for all items bought from us.</div>
+					</div>
+					<div class="faq-item reveal">
+						<button class="faq-q" onclick="toggleFaq(this)">
+							How long till delivery?
+							<span class="faq-icon">+</span>
+						</button>
+						<div class="faq-a">Local Delivery Timeline: Deliveries within Lagos takes 1-2 working days, Deliveries outside Lagos takes 3-5 working days depending on your location.
+							International Delivery Timeline: International deliveries take 10-15 working days and additional import duty charges can be added. Please note that we have 
+							no control or stake in customs duties imposed on international deliveries.
+						</div>
+					</div>
+					<!-- <div class="faq-item reveal">
+						<button class="faq-q" onclick="toggleFaq(this)">
+							Can I get a personalised skincare routine?
+							<span class="faq-icon">+</span>
+						</button>
+						<div class="faq-a">Yes — every first purchase includes a free skin consultation with one of our
+							specialists via WhatsApp or email. We'll review your skin concerns, current routine, and
+							goals, then recommend the exact RoyalSheba products in the right order for your skin type.
+						</div>
+					</div> -->
+					<div class="faq-item reveal">
+						<button class="faq-q" onclick="toggleFaq(this)">
+							How do I become a RoyalSheba stockist?
+							<span class="faq-icon">+</span>
+						</button>
+						<div class="faq-a">We're selective about our wholesale partners to protect the brand experience.
+							Fill in the form on this page and select "Wholesale / Stockist" under your message, and our
+							partnerships team will be in touch within 48 hours with terms and minimum order
+							requirements.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ORDER / CONTACT -->
+	<section id="order">
+		<div class="container">
+			<div class="order-grid">
+				<div class="order-left">
+					<span class="eyebrow reveal">Place an Order</span>
+					<h2 class="reveal reveal-delay-1">Ready for your <em>royal</em> ritual?</h2>
+					<p class="reveal reveal-delay-2">Fill in the form and our team will confirm your order, answer any
+						questions, and guide you to your perfect routine — usually within 2 hours during business hours.
+					</p>
+					<div class="contact-methods reveal reveal-delay-3">
+						<div class="contact-row">
+							<span class="contact-icon">📞</span>
+							<span><strong>Call / WhatsApp:</strong> &nbsp;+234 810 965 0323</span>
+						</div>
+						<div class="contact-row">
+							<span class="contact-icon">✉️</span>
+							<span><strong>Email:</strong> &nbsp;royalsheba4@gmail.com</span>
+						</div>
+						<div class="contact-row">
+							<span class="contact-icon">📍</span>
+							<span><strong>Delivery:</strong> &nbsp;Nationwide + International</span>
+						</div>
+						<div class="contact-row">
+							<span class="contact-icon">🕐</span>
+							<span><strong>Hours:</strong> &nbsp;Mon – Sat, 8am – 8pm</span>
+						</div>
+					</div>
+					<a href="https://wa.me/2348109650323?text=Hello%2C%20I%27d%20like%20to%20order%20from%20RoyalSheba"
+						target="_blank" class="btn-primary reveal" style="display:inline-block;">
+						Chat on WhatsApp
+					</a>
+				</div>
+				<div class="form-wrap reveal reveal-delay-1">
+					<form id="orderForm" onsubmit="submitForm(event)">
+						<div class="form-row">
+							<div class="form-group">
+								<label for="fname">First Name</label>
+								<input type="text" id="fname" name="fname" placeholder="Adaeze" required />
+							</div>
+							<div class="form-group">
+								<label for="lname">Last Name</label>
+								<input type="text" id="lname" name="lname" placeholder="Okafor" required />
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="phone">Phone(WhatsApp preferred)</label>
+							<input type="tel" id="phone" name="phone" placeholder="+234 800 000 0000" required />
+						</div>
+						<div class="form-group">
+							<label for="email">Email</label>
+							<input type="email" id="email" name="email" placeholder="adaeze@example.com" />
+						</div>
+						<div class="form-group">
+							<label for="product">Product of Interest</label>
+							<select id="product" name="product" required>
+								<option value="" disabled selected>Choose a product...</option>
+								<option>Dr. Meinaier Stretch Mark Lotion — ₦13,000</option>
+								<option>Dr. Meinaier Stretch Mark Oil — ₦13,000</option>
+								<option>1 oil & 1 lotion combo — ₦20,000</option>
+								<option>2 oil & 1 lotion combo — ₦30,000</option>
+
+								<option>RoyalSheba Wholesale / Stockist</option>
+								<!-- <option>Marula Rose Balancing Toner — ₦4,800</option> -->
+								<!-- <option>The RoyalSheba Ritual Set — ₦24,000</option> -->
+								<option>I need a recommendation</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="address">Delivery Address</label>
+							<textarea id="address" name="address" placeholder="Street address, city, state..."
+								rows="3"></textarea>
+						</div>
+						<div class="form-group">
+							<label for="message">Any questions or special requests?</label>
+							<textarea id="message" name="message"
+								placeholder="e.g. skin type, concerns, concerns, concerns..."></textarea>
+						</div>
+						<button type="submit" class="form-submit">Submit Order Request</button>
+						<p class="form-notice">We'll confirm via WhatsApp or phone within 2 hours.</p>
+					</form>
+					<div id="form-success">
+						<div style="font-size:2rem; margin-bottom:.8rem;">✦</div>
+						<div>Your order request has been received.</div>
+						<div style="font-size:.88rem; color:var(--muted); margin-top:.6rem; font-family:var(--sans);">
+							We'll be in touch within 2 hours to confirm. Thank you for choosing RoyalSheba.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- FOOTER -->
+	<footer>
+		<div class="container">
+			<div class="footer-grid">
+				<div class="footer-brand">
+					<div class="nav-logo">Royal<span>Sheba</span></div>
+					<p>Skincare rooted in African botanical heritage, formulated for the modern woman who knows her
+						worth.</p>
+				</div>
+				<div class="footer-col">
+					<h4>Products</h4>
+					<ul>
+						<li><a href="#collections">Serums</a></li>
+						<li><a href="#collections">Cleansers</a></li>
+						<li><a href="#collections">Moisturisers</a></li>
+						<li><a href="#collections">Night Care</a></li>
+						<li><a href="#collections">Ritual Sets</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Company</h4>
+					<ul>
+						<li><a href="#about">Our Story</a></li>
+						<li><a href="#services">Ingredients</a></li>
+						<li><a href="#faq">FAQ</a></li>
+						<li><a href="#order">Contact Us</a></li>
+						<li><a href="#">Wholesale</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Follow Us</h4>
+					<ul>
+						<li><a href="https://www.instagram.com/royalsheba_nature?igsh=MXZ0bTEzaXR4bXM2Ng%3D%3D&utm_source=qr">Instagram</a></li>
+						<li><a href="https://www.tiktok.com/@royalsheba_nature">TikTok</a></li>
+						<li><a href="https://www.facebook.com/share/1HBqdFFuUE/?mibextid=wwXIfr">Facebook</a></li>
+						<!-- <li><a href="#">YouTube</a></li> -->
+						<li><a href="https://wa.me/2348109650323">WhatsApp Channel</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<span>© 2026 RoyalSheba. All rights reserved.</span>
+				<div class="social-links">
+					<a href="https://www.instagram.com/royalsheba_nature?igsh=MXZ0bTEzaXR4bXM2Ng%3D%3D&utm_source=qr" class="social-link" aria-label="Instagram">ig</a>
+					<a href="https://www.tiktok.com/@royalsheba_nature" class="social-link" aria-label="TikTok">tt</a>
+					<a href="https://www.facebook.com/share/1HBqdFFuUE/?mibextid=wwXIfr" class="social-link" aria-label="Facebook">fb</a>
+				</div>
+				<span>Made by TazTech LLC</span>
+			</div>
+		</div>
+	</footer>
+
+	<!-- SCROLL TOP -->
+	<button id="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top">↑</button>
+
+	<script>
+		/* ── NAV SCROLL ─── */
+		const nav = document.getElementById('nav');
+		const scrollTopBtn = document.getElementById('scroll-top');
+		window.addEventListener('scroll', () => {
+			nav.classList.toggle('scrolled', window.scrollY > 60);
+			scrollTopBtn.classList.toggle('visible', window.scrollY > 400);
+		});
+
+		/* ── MOBILE MENU ─── */
+		const hamburger = document.getElementById('hamburger');
+		const mobileMenu = document.getElementById('mobile-menu');
+		hamburger.addEventListener('click', () => {
+			hamburger.classList.toggle('open');
+			mobileMenu.classList.toggle('open');
+			document.body.style.overflow = mobileMenu.classList.contains('open') ? 'hidden' : '';
+		});
+		function closeMobileMenu() {
+			hamburger.classList.remove('open');
+			mobileMenu.classList.remove('open');
+			document.body.style.overflow = '';
+		}
+
+		/* ── SCROLL REVEAL ─── */
+		const revealEls = document.querySelectorAll('.reveal');
+		const revealObserver = new IntersectionObserver(entries => {
+			entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); revealObserver.unobserve(e.target); } });
+		}, { threshold: 0.12 });
+		revealEls.forEach(el => revealObserver.observe(el));
+
+		/* ── CAROUSEL ─── */
+		const track = document.getElementById('carouselTrack');
+		const cards = track.querySelectorAll('.testi-card');
+		const dotsContainer = document.getElementById('carouselDots');
+		let current = 0;
+		let perView = window.innerWidth < 768 ? 1 : window.innerWidth < 1024 ? 2 : 3;
+
+		function buildDots() {
+			dotsContainer.innerHTML = '';
+			const total = Math.ceil(cards.length - perView + 1);
+			for (let i = 0; i < total; i++) {
+				const d = document.createElement('button');
+				d.className = 'carousel-dot' + (i === 0 ? ' active' : '');
+				d.setAttribute('aria-label', `Slide ${i + 1}`);
+				d.addEventListener('click', () => goTo(i));
+				dotsContainer.appendChild(d);
+			}
+		}
+
+		function goTo(idx) {
+			const maxIdx = cards.length - perView;
+			current = Math.max(0, Math.min(idx, maxIdx));
+			const cardW = cards[0].offsetWidth + 24; // gap 1.5rem = 24px
+			track.style.transform = `translateX(-${current * cardW}px)`;
+			document.querySelectorAll('.carousel-dot').forEach((d, i) => d.classList.toggle('active', i === current));
+		}
+
+		document.getElementById('prevBtn').addEventListener('click', () => goTo(current - 1));
+		document.getElementById('nextBtn').addEventListener('click', () => goTo(current + 1));
+
+		window.addEventListener('resize', () => {
+			perView = window.innerWidth < 768 ? 1 : window.innerWidth < 1024 ? 2 : 3;
+			current = 0; buildDots(); goTo(0);
+		});
+		buildDots();
+
+		// Auto-advance
+		setInterval(() => goTo(current + 1 > cards.length - perView ? 0 : current + 1), 5000);
+
+		/* ── FAQ ─── */
+		function toggleFaq(btn) {
+			const item = btn.closest('.faq-item');
+			const isOpen = item.classList.contains('open');
+			document.querySelectorAll('.faq-item.open').forEach(i => i.classList.remove('open'));
+			if (!isOpen) item.classList.add('open');
+		}
+
+		/* ── FORM ─── */
+		function submitForm(e) {
+			e.preventDefault();
+			document.getElementById('orderForm').style.display = 'none';
+			document.getElementById('form-success').style.display = 'block';
+		}
+
+		/* ── SCROLL TO ORDER ─── */
+		function scrollToOrder() {
+			document.getElementById('order').scrollIntoView({ behavior: 'smooth' });
+		}
+	</script>
+</body>
+
+</html>
