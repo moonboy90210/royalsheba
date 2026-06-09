@@ -372,6 +372,12 @@ button {
 	position: relative;
 	overflow: hidden;
 }
+.hero-img {
+	width: 100%;
+	height: 90vh;
+	object-fit: cover;
+	object-position: center;
+}
 
 .hero-placeholder {
 	font-family: var(--serif);
@@ -504,6 +510,11 @@ button {
 	font-weight: 300;
 	color: rgba(201, 151, 58, .22);
 	line-height: 1;
+}
+.about-img {
+	width: 100%;
+	height: 82vh;
+	object-position: center;
 }
 
 .about-text .eyebrow {
@@ -687,7 +698,7 @@ button {
 	box-shadow: 0 16px 48px rgba(61, 31, 13, .12);
 }
 
-.product-img {
+.product-img-placeholder {
 	aspect-ratio: 3/4;
 	background: linear-gradient(145deg, var(--ivory), #e2c99533);
 	display: flex;
@@ -695,6 +706,11 @@ button {
 	justify-content: center;
 	position: relative;
 	overflow: hidden;
+}
+.product-img {
+	width: 100%;
+	height: 70vh;
+	object-position: center;
 }
 
 .product-img-label {
@@ -794,6 +810,17 @@ button {
 	font-size: 1.2rem;
 	font-weight: 600;
 	color: var(--gold);
+}
+.product-price-old {
+	font-size: .9rem;
+	color: var(--muted);
+	text-decoration: line-through;
+}
+.product-discount {
+	font-size: 0.65rem;
+    font-weight: 700;
+    color: red !important;
+    letter-spacing: 0.05em;
 }
 
 .add-btn {
